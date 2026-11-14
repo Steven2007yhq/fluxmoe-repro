@@ -1,0 +1,100 @@
+{
+  "status": "TARGET_NATIVE_CPU_KV_SOURCE_PATH_CPU_CHECKED",
+  "target_versions": {
+    "tokenizers": "0.23.2",
+    "jinja2": "3.1.6",
+    "transformers": "5.17.0",
+    "vllm": "0.29.0"
+  },
+  "readback_files": {
+    "config/vllm.py": "788430b9211a5b0ccda0be565ad2a0f27e9069370f35d2b1f6a333a6ca135186",
+    "config/cache.py": "3ddbd0eae79ba62fd9cbc5131532030133b9b3c038595eb838276369a115810b",
+    "envs.py": "518e8952af66697d7310d53a85ff5227c2918f4d802c111a10d84168ffb9c940",
+    "distributed/kv_transfer/kv_connector/v1/offloading_connector.py": "06bdf20e17d63a683c9a5e1e9c86cb4c530e1312c7e4731713e2bb7e025ef802",
+    "distributed/kv_transfer/kv_connector/v1/offloading/scheduler.py": "0a66105e9cb9f537981247aac1e59164dba4410d03a93cf28eae3347f7abb35d",
+    "distributed/kv_transfer/kv_connector/v1/offloading/worker.py": "d8b010831e5422c6c1e56f679b72acc6771660afd68f4eb802c0f4e633763727",
+    "distributed/kv_transfer/kv_connector/v1/offloading/events.py": "d7039b67be95fd444966628184040a94880873c0611c0e6e7525a22650ffdefb",
+    "v1/kv_offload/cpu/gpu_worker.py": "fee55470dfc8143b3bcc559912d7bcbbcade5a8c014c78588f85ba2ad9582c51",
+    "v1/kv_offload/cpu/spec.py": "240d686342837804ca34e43ab7d48b52a16f747d737348f5187d7b0e8e0d5a8d",
+    "v1/kv_offload/cpu/manager.py": "27bf4b0892f519a4edb7b0da750f21712c7fcc20ea805ad4b2022e46662de935",
+    "v1/core/sched/scheduler.py": "abca7134821e2fb5cc8572df5c4a0b570ecf702646254327bc786fc452074983",
+    "v1/worker/kv_connector_model_runner_mixin.py": "34d842e8d1599d53ae1617ce8b63e39a619160f24aa51864c533cff3fb5e256c",
+    "v1/simple_kv_offload/manager.py": "e7c04346160dc4cdd885877b6229e9fee37addd7ae4dfbeed7416e594987ba73",
+    "v1/simple_kv_offload/worker.py": "4b106746952d25990b67b9f27865d17a796a6c1298ff885974b2ec5ec5099a26",
+    "v1/request.py": "da610d5203e72d2d524adc5fb39df11502a23520f2f31d9a44cf13d343f9c25d",
+    "v1/engine/core.py": "f990e260cebf0826d08cfd30955c0c7a85b9af00504841b91759ca5bc7b036f6",
+    "v1/engine/llm_engine.py": "19d345bfcc05497e0751cc64976d984ecfa25942ba5cc460dc60d7815dc25cb5",
+    "v1/engine/output_processor.py": "80a01067f4b3b351239506a3a1754dafdfc83cd162352d95545ba8ebed44c447",
+    "v1/worker/gpu/model_runner.py": "d7bae5b05a2a9f02c1ba29f0b4b32434cee43c3b369d3985505d3f8ed89b461b",
+    "v1/worker/gpu_worker.py": "b0f39124f31ead3d2d20f1c6ac8696393c0ed6fed585ba8d31a4f7673e390407",
+    "v1/worker/gpu/kv_connector.py": "99757f1032d07bb33a97a2d8b02e037b6da83e29fa9e569109a98592c6fa4080",
+    "v1/kv_offload/cpu/shared_offload_region.py": "39c5bfaffd9e00ec86687f9e68206e1d1493081f48af668f2ddc7572ed68fc9b",
+    "v1/kv_offload/config.py": "12fe8541a3436625eee29e743a78f7da8ef36eaa09179a73dc9a3ed359c5500f",
+    "distributed/kv_transfer/kv_connector/v1/offloading/config.py": "46e3aa96c3608c69ef06f5cead43eacc9abd810557fd1dc7a1312ec256b853f4",
+    "distributed/kv_transfer/kv_connector/v1/offloading/common.py": "9b3f042c6fa1581d10e8f688d2d9bc927bb41b780a9ea01f514d57228e20c978",
+    "v1/attention/backends/triton_attn.py": "fe15ef175705a18203ff2c75eeb04d471b45beefd6b816f3b2358f3c834aaf9d",
+    "v1/attention/backends/utils.py": "8fa9cbdec4b0327d34a243b7beb3783983d0fcb70a90a05a2f5217b4fed325eb",
+    "v1/attention/backend.py": "40b05381736376b130202bfc82d8028f81fec10e23970e579ddcf93e56a3fa5b",
+    "v1/worker/worker_base.py": "4a1a5266b912fe97991d8dc89d92b923990da9f6cb4b817d00d52e9c0d26dd7c",
+    "v1/core/kv_cache_utils.py": "5294bef00c2f127f672a37eda9acbe440418f01622ef49b9be57761c54ebd7f6",
+    "v1/engine/input_processor.py": "91dde56a548c09613ee9aaef8c43631481d12dc1bd439fddc12c6569f5e2e799",
+    "inputs/__init__.py": "18c499230cb8e4153219f792b1ea121ab0625213fe0b43cba91b729f10d77372",
+    "inputs/engine.py": "0b0df265976794d23d23abb02070c7bee15626fd837337ab4ebe61195f724428",
+    "inputs/llm.py": "d7bf21f71d089709b5566c9232ce20bf3da7029228ca6256b5e1e61057fba5d2",
+    "distributed/kv_transfer/kv_connector/v1/offloading/canonical_mapping.py": "e0b3c6f9806a650e0370c43c5068fc31c0fec94615089e15fdf270d7d96f2b64"
+  },
+  "short_verified_source_overlap": {
+    "v1/engine/output_processor.py": "80a01067f4b3b351239506a3a1754dafdfc83cd162352d95545ba8ebed44c447",
+    "v1/engine/llm_engine.py": "19d345bfcc05497e0751cc64976d984ecfa25942ba5cc460dc60d7815dc25cb5",
+    "v1/engine/input_processor.py": "91dde56a548c09613ee9aaef8c43631481d12dc1bd439fddc12c6569f5e2e799",
+    "v1/core/kv_cache_utils.py": "5294bef00c2f127f672a37eda9acbe440418f01622ef49b9be57761c54ebd7f6",
+    "v1/worker/worker_base.py": "4a1a5266b912fe97991d8dc89d92b923990da9f6cb4b817d00d52e9c0d26dd7c",
+    "v1/attention/backends/triton_attn.py": "fe15ef175705a18203ff2c75eeb04d471b45beefd6b816f3b2358f3c834aaf9d",
+    "v1/engine/core.py": "f990e260cebf0826d08cfd30955c0c7a85b9af00504841b91759ca5bc7b036f6",
+    "v1/worker/gpu_worker.py": "b0f39124f31ead3d2d20f1c6ac8696393c0ed6fed585ba8d31a4f7673e390407",
+    "v1/worker/gpu/model_runner.py": "d7bae5b05a2a9f02c1ba29f0b4b32434cee43c3b369d3985505d3f8ed89b461b"
+  },
+  "config": {
+    "native_connector": "OffloadingConnector",
+    "role": "kv_both",
+    "cpu_bytes_to_use": 25769803776,
+    "alternate_env_changes_connector": true,
+    "short_no_KV_preserved": true
+  },
+  "layout": {
+    "connector_preference": "LBHNC",
+    "triton_inherited_supports_all": true,
+    "two_equal_rank_choices": [
+      "LBNHC",
+      "LBHNC",
+      "BLNHC",
+      "BLHNC",
+      "BHLNC",
+      "LHBNC"
+    ],
+    "explicit_layout_resolved": "LBHNC"
+  },
+  "capacity": {
+    "nominal_cpu_blocks": 12288,
+    "worker_page_bytes": 1048576,
+    "aggregate_block_bytes": 2097152,
+    "shared_CPU_region": true,
+    "replicated_layout": false
+  },
+  "scheduler": {
+    "same_request_requeued_after_original_preempt": true,
+    "native_match_after_reset_can_request_async_load": true,
+    "fixture_hit_tokens": 2080,
+    "in_flight_store_defers_lookup": true,
+    "skip_reading_prefix_cache_disables_load": true,
+    "connector_hashes_blocks_even_when_GPU_prefix_cache_disabled": true,
+    "cache_salt_reaches_request": true,
+    "V2_registers_real_KV_and_collects_transfer_completion": true,
+    "fixture_only": true
+  },
+  "actual_GPU_transfer_executed": false,
+  "actual_same_request_restoration_verified": false,
+  "actual_KV_bytes_or_memory_peaks_verified": false,
+  "formal_performance_allowed": false,
+  "full_model_audit_passed": false
+}

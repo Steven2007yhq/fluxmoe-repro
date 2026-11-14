@@ -1,0 +1,22 @@
+{
+  "model": {"layers": 8, "experts": 4, "hidden": 16, "intermediate": 32, "top_k": 2, "seed": 17},
+  "strategy": "hybrid",
+  "batch": 4,
+  "iterations": 4,
+  "remaining_batch": 16,
+  "prefetch": true,
+  "cpu_fraction": 0.125,
+  "cpu_bandwidth_gbps": 0.008,
+  "decompression_bandwidth_gbps": 0.080,
+  "compressed_read_bandwidth_gbps": 0.200,
+  "launch_ms": 0.005,
+  "expert_ms_per_token": 0.030,
+  "nonexpert_ms": 0.030,
+  "gpu_budget_bytes": 2000000,
+  "kv_bytes": 8192,
+  "workspace_bytes": 4096,
+  "planner_enabled": false,
+  "control_interval": 16,
+  "adjustment_granularity": 0.25,
+  "restore_threshold": 0.9
+}

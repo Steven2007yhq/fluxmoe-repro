@@ -1,0 +1,2 @@
+# Optional plotting dependency, installed manually in the target environment.
+matplotlib==3.10.8

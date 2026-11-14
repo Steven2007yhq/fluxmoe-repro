@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+*.so
+native/build/
+/results/
+/fluxmoe-repro/results/
+/models/
+/weights-transfer/
+/fluxmoe.pdf
+/fluxmoe-repro.zip

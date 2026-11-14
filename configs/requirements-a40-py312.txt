@@ -1,0 +1,14 @@
+# Direct dependency pins for the A40 server's Python 3.12 environment.
+# System toolkit: CUDA 13.2; PyTorch/vLLM binaries: CUDA 13.0.
+# Python 3.12 activates mistral-common's numpy>=1.25,<2.4 requirement.
+# The Python 3.14 development environment's numpy==2.4.6 is incompatible here.
+# Install inside fluxmoe-steve with: python -m pip install -r this-file.txt
+--index-url https://pypi.org/simple
+--extra-index-url https://download.pytorch.org/whl/cu130
+torch==2.13.0+cu130
+vllm==0.29.0
+transformers==5.17.0
+tokenizers==0.23.2
+safetensors==0.8.0
+numpy==2.3.5
+huggingface-hub==1.32.0

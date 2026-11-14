@@ -1,0 +1,11 @@
+{
+  "model": {"layers": 6, "experts": 4, "hidden": 8, "intermediate": 16, "top_k": 2, "seed": 17},
+  "strategy": "hybrid",
+  "batch": 2,
+  "iterations": 8,
+  "remaining_batch": 32,
+  "cpu_fraction": 0.5,
+  "planner_enabled": true,
+  "control_interval": 1,
+  "adjustment_granularity": 0.25
+}

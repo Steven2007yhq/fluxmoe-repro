@@ -1,0 +1,12 @@
+{
+    "folders": [
+        {
+            "name": "FluxMoE projects",
+            "uri": "vscode-remote://ssh-remote+fluxmoe-a40/home/bks-agent/projects"
+        }
+    ],
+    "remoteAuthority": "ssh-remote+fluxmoe-a40",
+    "settings": {
+        "genv.resumeEnvironment": "vscode/FluxMoE-A40"
+    }
+}
